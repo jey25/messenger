@@ -56,3 +56,25 @@
   margin-bottom: 10px;
   display: block;
 }
+
+.user-component__text span {
+  position: absolute;
+  color: tomato;
+  font-size: 0.8em;
+  font-weight: 600;
+  width: 1em;
+  border: 2px solid tomato;
+  border-radius: 50%;
+  bor
+  padding: 0.1px 0.2px;
+  line-height: 1.25em;
+  text-align: center;
+  right: -25px;
+  bottom: 0px;
+}
+
+.user-component__text {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
