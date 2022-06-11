@@ -1,0 +1,29 @@
+body {
+  background-color: tomato;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+#outline {
+  height : 170px;
+  width:  170px;
+  background-color:beige;
+  border:2px solid black;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-evenly;
+  align-items:center;
+}
+
+.sq {
+  height: 40px;
+  width: 40px;
+  background-color:teal;
+  border: 2px solid white;
+}
+
+#sq2 {
+  width:130px;
+  border:2px dashed white
+}
